@@ -1,0 +1,5 @@
+* support to solve interview question
+* clear explain
+* step by step explain
+* the process of mind when I solve the problem
+* explain the process of writing code, some tip and trick that help writing code easier
