@@ -32,7 +32,7 @@ class LinkedList():
 		self.head = None
 
 	# add node to head of the list
-	def add_at_head(self, data):
+	def add_node_at_head(self, data):
 		new_node = Node(data)
 		if self.head == None:
 			self.head = new_node
@@ -41,6 +41,13 @@ class LinkedList():
 			self.head = new_node
 
 	# add node at pos
+	def add_node_at_pos(self, pos):
+		pass
+
+	# add node at tail or ending
+	def add_node_at_end():
+		pass
+
 
 	def print_list(self):
 		# need to travel all element inside list
@@ -70,7 +77,7 @@ class LinkedList():
 			self.head = self.head.next
 
 
-	def remove_at_pos(self, position):
+	def remove_at_pos(self, pos):
 		pass
 			
 
@@ -80,7 +87,7 @@ list1 = LinkedList()
 
 # add value to list
 for value in range(10):
-	list1.add_at_head(value)
+	list1.add_node_at_head(value)
 
 # print list value
 list1.print_list()
@@ -89,8 +96,3 @@ list1.print_list()
 print list1.search(5).data
 
 # delete a node
-
-
-
-		
-
